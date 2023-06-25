@@ -1,0 +1,94 @@
+/* wishes.css */
+
+/* Set background color and center align the content */
+body {
+    background-image: url("bestwishesf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+
+  
+  /* Style the heading */
+  h1 {
+    font-size: 32px; /* Increase the font size */
+    color: #db7fdb; /* Change the text color to red */
+    margin-bottom: 30px; /* Increase the margin bottom */
+    text-justify:left;
+    font-weight: bold;
+    position: absolute;
+    top: -3px; /* Adjust the desired distance from the bottom */
+    left: 200px; /* Add bold font weight */
+  }
+  
+  p1{
+    color: #000000;
+    font-size: 22px; /* Increase the font size */
+    margin-bottom: 15px; /* Increase the margin bottom */
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    text-justify:left;
+    position: absolute;
+    top: 65px; /* Adjust the desired distance from the bottom */
+    left: 5px;  
+    max-width:850px;/* Add italic font style */
+  }
+  p2{
+    color:#000000;
+    font-size: 20px; /* Increase the font size */
+    margin-bottom: 15px; /* Increase the margin bottom */
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    text-justify:centre;
+    position: absolute;
+    top: 600px; /* Adjust the desired distance from the bottom */
+    left: 500px;  
+    max-width:800px;/* Add italic font style */
+
+  }
+  img {
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    /* Additional properties to change position */
+    position: absolute;
+    top: 100px; /* Adjust the desired distance from the top */
+    right:220px; /* Position at the horizontal center */ 
+    mix-blend-mode: multiply;
+  }
+  p3{
+    color:#000000;
+    font-size: 21px; /* Increase the font size */
+    margin-bottom: 15px; /* Increase the margin bottom */
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    text-justify:centre;
+    position: absolute;
+    top: 625px; /* Adjust the desired distance from the bottom */
+    left: 505px;  
+    max-width:800px;/* Add italic font style */
+
+  }
+  a#link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #af5d9a;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 490px; /* Adjust the desired distance from the top */
+    right: -340px; /* Adjust the desired distance from the right */
+    max-width:800px;
+}
+
+/* Style the link element on hover */
+a#link:hover {
+    background-color: #263ba5;
+}

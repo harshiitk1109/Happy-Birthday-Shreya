@@ -1,0 +1,50 @@
+body {
+  background-image: url("final 1st page bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main {
+  width: 100vw;
+  height: auto;
+  display: inline-flexbox;
+  justify-content: right;
+  align-items: right;
+  flex-direction: column;
+}
+
+#main img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 30px;
+  position: absolute;
+  top: 450px; /* Adjust the desired distance from the top */
+  right:1200px;
+  
+
+ 
+}
+/* Styles for the audio */
+audio {
+  display: none;}
+
+#main #link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #af5d9a;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 680px; /* Adjust the desired distance from the top */
+  right:1200px;
+  max-width:300px;
+}
+ 
+  /* Style the cutCakeLink element on hover */
+  #link :hover {
+    background-color:  #263ba5;
+  }
+  

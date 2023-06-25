@@ -1,0 +1,85 @@
+/* Target the birthdayPage div */
+body {
+  background-image: url("choi.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+
+
+/* Target the h1 element */
+h1 {
+  color: #e31409;
+  font-size: 36px;
+  position: absolute;
+  top: 230px; /* Adjust the desired distance from the bottom */
+  left: 12px; 
+  max-width:800px;
+
+  font-style: italic; 
+  
+}
+
+/* Target the img element */
+img {
+  width: 350px;
+  height: 500px;
+  margin-top: 20px;
+  /* Additional properties to change position */
+  position: absolute;
+  top: 200px; /* Adjust the desired distance from the top */
+  right:630px; /* Position at the horizontal center */ 
+  mix-blend-mode: multiply;
+}
+
+/* Target the video element */
+video {
+  width: 500px;
+  height: 520px;
+  margin-top: 30px;
+  /* Additional properties to change position */
+  position: absolute;
+  top: 180px; /* Adjust the desired distance from the top */
+  right: 140px; /* Position at the horizontal center */ 
+  mix-blend-mode: multiply;
+  filter: brightness(80%) contrast(180%) ; 
+
+}
+p{
+  color: #6b4343;
+  font-size: 23px; /* Increase the font size */
+  margin-bottom: 15px; /* Increase the margin bottom */
+  text-align: left;
+  font-style: italic;
+  font-weight: bold;
+  text-justify:centre;
+  position: absolute;
+  top: 280px; /* Adjust the desired distance from the bottom */
+  left: 15px; 
+ 
+  max-width:480px;/* Add italic font style */
+
+}
+
+
+/* Target the blowCandleLink element */
+#blowCandleLink {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d2a02b;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  /* Additional properties to change position */
+  position: absolute;
+  top: 665px; /* Adjust the desired distance from the top */
+  right: 200px;
+}
+
+/* Style the blowCandleLink element on hover */
+#blowCandleLink:hover {
+  background-color:  #263ba5;
+}

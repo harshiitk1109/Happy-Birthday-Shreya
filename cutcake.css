@@ -1,0 +1,57 @@
+
+
+body {
+    background-image: url("choice3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #cutcakePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #cutcakePage img {
+    width: 500px;
+  height: 500px;
+  mix-blend-mode: multiply;
+  filter: brightness(150%) contrast(110%) saturate(150%) ; 
+  position: absolute;
+  top: 220px; /* Adjust the desired distance from the top */
+  right: 550px;
+
+  }
+  p{
+    color: #6b4343;
+    font-size: 28px; /* Increase the font size */
+    margin-bottom: 15px; /* Increase the margin bottom */
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    text-justify:centre;
+    position: absolute;
+    top: 330px; /* Adjust the desired distance from the bottom */
+    left: 20px;  
+    max-width:400px;/* Add italic font style */
+  
+  }
+  
+  #cutcakePage a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d2a02b;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    position: absolute;
+  top: 640px; /* Adjust the desired distance from the top */
+  right: 720px;
+  }
+  #indexlinkLink:hover {
+    background-color:  #263ba5;
+  }
+  
